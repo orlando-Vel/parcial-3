@@ -1,0 +1,496 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y proximity;
+    overflow: scroll;
+
+}
+
+/* <!-- BARRA NEGRA DE MENU --> */
+.barranegra {
+    scroll-snap-align: start;
+    display: flex;
+    min-height: 100%;
+    justify-content: space-between;
+    color: rgb(224, 195, 26);
+    background-color: rgb(5, 5, 5);
+    align-items: center;
+    padding: 20px 5%;
+
+}
+
+.barranegra h1 {
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.menu {
+
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    padding-left: 8px;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+.menu .menu__icon {
+    cursor: pointer;
+    height: 26px;
+    width: 26px;
+}
+
+
+
+
+/* <!-- VIDEO DE FONDO CON INFORMACION 1 --> */
+.Contenido1 {
+    min-height: 70vh;
+    position: relative;
+    scroll-snap-align: start;
+
+}
+
+.Contenido1 .banner1 {
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding: 10% 5%;
+}
+
+.Contenido1 .banner1 .htitulo {
+    color: rgb(224, 195, 26);
+    text-align: center;
+    font-size: 100px;
+    transition: all 800ms ease;
+}
+
+.Contenido1 .banner1 .hcontent {
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 20%;
+    transition: all 800ms ease;
+}
+
+.Contenido1 video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.Contenido1 .capa {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #242323);
+}
+
+
+/* <!-- BANNER 2 --> */
+
+#fondo {
+    background-color: rgb(26, 25, 25);
+    background-size: cover;
+}
+
+.banner2 {
+    scroll-snap-align: start;
+    position: relative;
+    z-index: 2;
+    padding-top: 3%;
+
+}
+
+.banner2 .htitulo {
+    color: rgb(224, 195, 26);
+    text-align: center;
+    font-size: 80px;
+    transition: all 800ms ease;
+}
+
+.banner2 .hcontent {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 20%;
+    transition: all 800ms ease;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container #cuerpoCards{
+
+    position: relative;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 2%;
+}
+
+.container #cuerpoCards .card {
+    width: 300px;
+    position: relative;
+    height: 400px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 30px 10px;
+    display: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3 ease-in-out;
+    margin-top: 2%;
+}
+
+.container #cuerpoCards .card .imgbx {
+    margin: 5px;
+    position: relative;
+    width: 260px;
+    height: 260px;
+    left: 20px;
+}
+
+.container #cuerpoCards .card .imgbx p {
+    text-align: justify;
+    font-size: 20px;
+    transition: all 800ms ease;
+}
+
+.container #cuerpoCards .card .imgbx h2 {
+    padding-top: 15px;
+    text-align: center;
+    font-size: 30px;
+    transition: all 800ms ease;
+}
+
+.container #cuerpoCards .card .imgbx img {
+    padding-top: 15px;
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.imgbx:hover img {
+    transform: scale(1.1);
+}
+
+
+/* <!-- VIDEO DE FONDO CON INFORMACION 2 --> */
+
+.Contenido2 {
+    min-height: 70vh;
+    position: relative;
+    scroll-snap-align: start;
+}
+
+.Contenido2 .banner3 {
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding: 10% 5%;
+}
+
+.Contenido2 .banner3 .htitulo {
+    color: rgb(224, 195, 26);
+    text-align: center;
+    font-size: 100px;
+    transition: all 800ms ease;
+}
+
+.Contenido2 .banner3 .hcontent {
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 20%;
+    transition: all 800ms ease;
+}
+
+.Contenido2 video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Contenido2 .capa {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #353535);
+}
+
+
+
+/* <!-- BANNER 4 --> */
+
+.banner4 {
+    scroll-snap-align: start;
+    position: relative;
+    z-index: 2;
+    padding-top: 3%;
+
+}
+
+.banner4 .htitulo {
+    color: rgb(224, 195, 26);
+    text-align: center;
+    font-size: 80px;
+    transition: all 800ms ease;
+}
+
+.banner4 .hcontent {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px 20%;
+    transition: all 800ms ease;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+
+}
+
+.subbox {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 2%;
+}
+
+.subbox .tarjeta {
+    width: 350px;
+    height: 250px;
+    padding: 40px;
+    position: relative;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+
+.subbox .tarjeta .user__infor {
+
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    width: 450px;
+    transition: all 800ms ease;
+
+}
+
+
+.subbox .tarjeta .user__infor p {
+    padding-right: 35px;
+    font-size: 15px;
+    transition: all 800ms ease;
+}
+
+.subbox .tarjeta .user__infor .name__color {
+    color: rgb(224, 195, 26);
+    padding-right: 5px;
+    transition: all 800ms ease;
+}
+
+.subbox .tarjeta .user__infor img {
+
+    height: 75px;
+    width: 75px;
+    border-radius: 50px;
+
+}
+
+.subbox .tarjeta:hover {
+    transform: scale(1.02);
+}
+
+.subbox .tarjeta .texto_npc {
+    border-left: 10px;
+    position: relative;
+    left: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.subbox .tarjeta .texto_npc p {
+    text-align: justify;
+    font-size: 20px;
+    padding-right: 30px;
+    transition: all 800ms ease;
+}
+
+.tarjeta::after {
+    /* Linea al lado del texto */
+    content: '';
+    width: 10px;
+    height: 120px;
+    background: linear-gradient(#a1a1a1, #ecdb3b);
+    position: absolute;
+
+    top: px;
+    left: 45px;
+
+}
+
+
+/* <!-- FOOTER NEGRO--> */
+footer {
+
+    scroll-snap-align: start;
+
+    min-height: 2%;
+    position: relative;
+    color: rgb(223, 219, 219);
+    background-color: rgb(5, 5, 5);
+    align-items: center;
+    padding: 20px 5%;
+
+}
+
+.footer__container {
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+    display: flex;
+
+}
+
+
+.footer__container .footer_tarjeta {
+    width: 350px;
+    height: 350px;
+
+
+    border-radius: 10px;
+    margin: 30px 10px;
+    display: flex;
+
+
+}
+
+.footer__container .footer_tarjetaE {
+    width: 750px;
+    height: 350px;
+
+
+    border-radius: 10px;
+    margin: 30px 10px;
+    display: flex;
+
+
+}
+
+.footer__container .footer_tarjetaE .imgbx {
+
+    margin: 5px;
+    align-items: center;
+    position: relative;
+    width: 500px;
+    height: 350px;
+    left: 20px;
+}
+
+.footer__container .footer_tarjetaE .imgbx p {
+    padding-left: 20px;
+    text-align: justify;
+    font-size: 25px;
+    transition: all 800ms ease;
+}
+
+.footer__container .footer_tarjetaE .imgbx h2 {
+    color: rgb(224, 195, 26);
+    padding-top: 15px;
+    text-align: center;
+    font-size: 35px;
+    transition: all 800ms ease;
+}
+
+.footer__container .footer_tarjeta .imgbx {
+
+    margin: 5px;
+    align-items: center;
+    position: relative;
+    width: 200px;
+    height: 350px;
+    left: 20px;
+}
+
+.footer__container .footer_tarjeta .imgbx .redes__infor {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10%;
+    width: 200px;
+
+}
+
+.footer__container .footer_tarjeta .imgbx p {
+    padding-left: 20px;
+    text-align: justify;
+    font-size: 20px;
+    transition: all 800ms ease;
+}
+
+.footer__container .footer_tarjeta .imgbx h2 {
+    padding-top: 15px;
+    color: rgb(224, 195, 26);
+    text-align: center;
+    font-size: 30px;
+    transition: all 800ms ease;
+}
+
+.footer__container .footer_tarjeta .imgbx img {
+
+    height: 35px;
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.747);
+    border-radius: 3%;
+}
+
+.copy {
+    font-size: 40px;
+    text-align: center;
+}
+
+.copy .logo {
+    height: 35px;
+    width: 35px;
+    background-color: rgba(255, 255, 255, 0.747);
+    border-radius: 25%;
+}
